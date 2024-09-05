@@ -6,7 +6,7 @@ export function Share() {
     const currentUrl = window.location.href;
 
     const shareData = {
-        title: "INMYROOM",
+        title: 'INMYROOM',
         url: currentUrl,
     };
 

@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { ReactComponent as CommentsIcon} from '../../../images/comments.svg';
 
 export function Comments() {
-    const [comments, setComments] = useState(localStorage.getItem("comments") ?? 0);
+    const [comments, setComments] = useState(localStorage.getItem('comments') ?? 0);
 
     const handleComments = () => {
         const newComments = +comments + 1;
         setComments(newComments);
-        localStorage.setItem("comments", String(newComments))
+        localStorage.setItem('comments', String(newComments))
     }
 
     return (
