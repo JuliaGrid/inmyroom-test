@@ -17,6 +17,7 @@ export function Bar() {
     };
 
     useEffect(() => {
+        if (scroll - lastScroll < 0) setLastScroll(scroll)
         if (scroll - lastScroll >= 200) {
             setIsHide(true)
         } else {
