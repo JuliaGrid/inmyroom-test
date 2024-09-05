@@ -1,0 +1,42 @@
+@media (max-width: 600px)  {
+    .bar {
+        display: flex;
+        justify-content: center;
+        height: 59px;
+        width: 100%;
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+        visibility: visible;
+        transition: all .1s linear;
+    }
+}
+
+@media (min-width: 600px)  {
+    .bar {
+         display: none;
+    }
+}
+
+.button_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.button_text {
+    margin-left: 6px;
+}
+
+.hide {
+    margin-bottom: -50px;
+    visibility: hidden;
+    transition: all .1s linear;
+}
+
