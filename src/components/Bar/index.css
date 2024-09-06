@@ -4,11 +4,20 @@
         justify-content: center;
         height: 59px;
         width: 100%;
-        background-color: white;
         position: fixed;
         bottom: 0;
         visibility: visible;
         transition: all .1s linear;
+    }
+    
+    .bar::before {
+        background-color: white;
+        content: "";
+        opacity: 95%;
+        height: 59px;
+        width: 100%;
+        position: fixed;
+        z-index: -1;
     }
 }
 

@@ -6,3 +6,9 @@ button {
   background: none;
   border: none;
 }
+
+.app_block {
+  height: 1000px;
+  width: 200px;
+  margin: auto;
+}
